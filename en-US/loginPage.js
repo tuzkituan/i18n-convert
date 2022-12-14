@@ -1,0 +1,18 @@
+export default {
+  'pages.login.signIn': 'Sign In',
+  'pages.login.signInToYourAccount': 'Sign in to your account',
+  'pages.login.emailLabel': 'Email Address',
+  'pages.login.pleaseInputYourEmail': 'Please enter your email address!',
+  'pages.login.invalidEmail': 'Invalid email',
+  'pages.login.passwordLabel': 'Password',
+  'pages.login.pleaseInputYourPassword': 'Please enter your password!',
+  'pages.login.keepMeSignedIn': 'Keep me signed in',
+  'pages.login.forgotPassword': 'Forgot Password?',
+  'pages.login.welcomeBack': 'Welcome Back',
+  'pages.login.enterCredentials': 'Enter your credentials to access your account.',
+  'pages.login.loginPortal': 'Login to Portal',
+  'pages.login.enterEmail': 'Enter your email',
+  'pages.login.enterPassword': 'Enter your password',
+  'pages.login.orSignIn': 'or sign in with',
+  'pages.login.terralogicLogin': 'Terralogic Login',
+};
