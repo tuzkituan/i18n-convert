@@ -9,8 +9,8 @@ def read_text_file(file_name, file_path):
         content = f.read()
         print(file_name)
 
-        file1 = open('../vi-VN/%s' %(file_name),"w+")
-        with open('../data.csv', "r",  encoding='utf-8') as csv_file:
+        file1 = open('../vi-VN/%s' %(file_name), "w+", encoding='utf-8')
+        with open('../data.csv', "r", encoding='utf-8') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
             line_count = 0
             file1.write(f'export default {"{"}\n')
@@ -30,7 +30,6 @@ def read_text_file(file_name, file_path):
 # iterate through all file
 for file in os.listdir(os.getcwd()):
     if file.endswith(".js"):
-        with open(os.path.join(os.getcwd(), file), 'r') as f:
+        with open(os.path.join(os.getcwd(), file), 'r', encoding='utf-8') as f:
             read_text_file(file, os.path.join(os.getcwd(), file))
 print(f'Done.')
-
